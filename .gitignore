@@ -1,0 +1,4 @@
+# Large media: kept out of git (compress or host on a video service)
+*.mp4
+*.mov
+.DS_Store
