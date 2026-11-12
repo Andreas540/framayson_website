@@ -290,13 +290,4 @@
     </footer>
     <script src="js/framayson.js"></script>
   </body>
-</html>";
-function openFikaSeparate(event){
-  event.preventDefault();
-  const url = URL.createObjectURL(new Blob([FIKA_HTML], {type:'text/html;charset=utf-8'}));
-  const tab = window.open(url, '_blank', 'noopener');
-  if (!tab) window.location.href = url;
-}
-</script>
-</body>
 </html>
